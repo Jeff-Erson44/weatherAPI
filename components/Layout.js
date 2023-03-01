@@ -1,10 +1,10 @@
-import Search from "./Search";
+import Navbar from "./Navbar"
 
 export default function Layout({ children }) {
     return (
     <>
         <>
-        <Search/>
+        <Navbar/>
             { children }
         </>
     </>
